@@ -1,0 +1,774 @@
+body {
+    position: relative;
+    width: 1400px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+:root {
+   font-family: 'PT Sans', 'Inter', 'Lavishly Yours', 'Merriweather',sans-serif;
+}
+/*Верхняя строка*/
+.headerline {
+    height: 43px;
+    background-color: #4CB1CA;
+    margin-top: 3px;
+}
+.language {
+    position: absolute;
+    font-size: 13px;
+    color: white;
+    padding-left: 188px;
+    padding-top: 13px;
+}
+.Language {
+    color: #A5E2F2;
+}
+.galka {
+    cursor: pointer;
+}
+.currency {
+    position: absolute;
+    font-size: 13px;
+    color: white;
+    margin-left: 325px;
+    padding-top: 13px;
+}
+.uptext {
+    margin-left: 848px;
+    padding-top: 13px;
+    color: white;
+}
+/*Логотип магазина, категории товаров, окно посика, кнопка магазина*/
+.leoshop {
+    position: absolute;
+    width: 166px;
+    height: 26px;
+    margin-left: 190px;
+    margin-top: 38px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    color: #656565;
+    
+}
+.categories {
+    position: absolute;
+    width: 346px;
+    height: 10px;
+    margin-left: 415px;
+    margin-top: 53px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #656565;
+}
+.searchbox {
+    position: absolute;
+    width: 174px;
+    height: 30px;
+    margin-left: 870px;
+    margin-top: 50px;
+}
+button {
+    position: absolute;
+    margin-top: -21px ;
+    margin-left: 143px;
+    height: 21px;
+
+
+}
+.greenbutton {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    background-color: #7DB122;
+    border-radius: 50%;
+}
+.cost {
+    margin-left: 1056px;
+    margin-top: 45px;
+    background-image: url(img/price2.png);
+    background-position: 31px;
+}
+.cost2 {
+    margin-left: 1095px;
+    margin-top: 45px;
+    background-image: url(img/shop2.png);
+    background-position: 2px;
+}
+.card {
+    position: absolute;
+    width: 59px;
+    height: 12px;
+    margin-left: 1143px;
+    margin-top: 53px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #656565;
+}
+    /*Банер с очками*/
+.baner {
+    position: relative;
+    width: 1400px;
+    height: 475px;
+    margin-top: 125px;
+    
+}
+.foto {
+    position: absolute;
+    width: 1400px;
+    height: 475px;
+   }
+.left {
+    position: absolute;
+    margin-top: 203px;
+    margin-left: 114px;
+    cursor: pointer;
+}
+.lefts {
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 137px;
+    color: #CDCDCD;
+    font-size: 55px;
+    cursor: pointer;
+}
+.right {
+    position: absolute;
+    margin-top: 203px;
+    margin-left: 1205px;
+    cursor: pointer;
+}
+.rights {
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 1233px;
+    color: #CDCDCD;
+    font-size: 55px;
+    cursor: pointer;
+}
+.firstline {
+    position: absolute;
+    margin-top: 189px;
+    margin-left: 229px;
+    width: 285px;
+    height: 47px;
+    background-color: #716961;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    animation-name: line;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+       
+}
+@keyframes line {
+    0%{
+        background-color: #716961;
+    }
+    100% {
+        background-color: black;
+    }
+        
+}
+
+.secondline {
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 229px;
+    width: 329px;
+    height: 47px;
+    background-color: #716961;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    animation-name: line;
+    animation-duration: 1.2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+}
+/*Наполнение*/
+/*!первый блок из 9 очков*/
+.content1 {
+    position: absolute;
+    width: 763px;
+    height: 1011px;
+    margin-left: 188px;
+    margin-top: 47px;
+    border: 1px #ffffff dotted;
+    
+}
+
+   
+.products {
+    position: absolute;
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #635F57;
+}
+/*продажный бокс*/
+.block {
+    position: relative;
+    width: 234px;
+    height: 300px;
+    margin-top: 55px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+   /*Настройки для бокса*/
+.fon {
+    position: absolute;
+    width: 221px;
+    height: 212px;
+    margin-left: 6px;
+    margin-top: 9px;
+}
+.glusses1 {
+    position: absolute;
+    margin-top: 87px;
+    margin-left: 34px;
+}
+.newstripe {
+    position: absolute;
+    margin-top: -3px;
+    margin-left: 141px;
+}
+.salestripe {
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -2px;
+    z-index: 1;
+}
+.context {
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 15px;
+    width: 149px;
+    height: 34px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.price {
+    color: #7DB122;
+    font-size: 20px;
+}
+.buy {
+    position: absolute;
+    background-color: #7DB122;
+    width: 40px;
+    height: 40px;
+    margin-top: 240px;
+    margin-left: 160px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.bascet {
+    display: table-cell;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35px;
+    height: 35px;
+               
+}
+/*продажный бокс1*/
+.block1 {
+    position: absolute;
+    width: 234px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 265px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*продажный бокс2*/
+.block2 {
+    position: absolute;
+    width: 234px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 530px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*продажный бокс3*/
+.block3 {
+    position: absolute;
+    width: 234px;
+    height: 300px;
+    margin-top: 27px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*продажный бокс4*/
+.block4 {
+    position: absolute;
+    width: 234px;
+    height: 300px;
+    margin-left: 265px ;
+    margin-top: 27px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*продажный бокс5*/
+.block5 {
+    position: absolute;
+    width: 234px;
+    height: 300px;
+    margin-left: 530px ;
+    margin-top: 27px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*продажный бокс6*/
+.block6 {
+    position: absolute;
+    width: 234px;
+    height: 300px;
+    margin-top: 355px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*продажный бокс7*/
+.block7 {
+    position: absolute;
+    width: 234px;
+    height: 300px;
+    margin-top: 355px;
+    margin-left: 265px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*продажный бокс8*/
+.block8 {
+    position: absolute;
+    width: 234px;
+    height: 300px;
+    margin-top: 355px;
+    margin-left: 530px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*!второй блок из 3 очков*/
+.content2 {
+    position: relative;
+    width: 763px;
+    height: 359px;
+    margin-left: 188px;
+    margin-top: 1107px;
+    border: 1px #ffffff dotted;
+    
+}
+/*!третий блок из 3 очков*/
+.content3 {
+    position: relative;
+    width: 763px;
+    height: 359px;
+    margin-left: 188px;
+    margin-top: 47px;
+    border: 1px #ffffff dotted;
+    
+}
+/*Девушка с очками*/
+.baner2 {
+    position: relative;
+    overflow: hidden;
+    width: 234px;
+    height: 486px;
+    margin-left: 981px;
+    margin-top: -1830px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+        
+}
+.fotobaner2 {
+    position: absolute;
+    padding: 10px;
+    top: 43px;
+    left: -111px;
+}
+.bluline {
+    position: absolute;
+    margin-top: -1834px;
+    margin-left: 981px;
+}
+.featuredg {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 64px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #635F57;
+    text-align: center;
+
+}
+.button {
+    position: absolute;
+    width: 132px;
+    height: 45px;
+    color: white;
+    background-color: #4CB1CA;
+    margin-left: 51px;
+    margin-top: 430px;
+    border: none;
+    cursor: pointer;
+}
+/*три точки*/
+.dotets {
+    position: absolute;
+    width: 234px;
+    height: 42px;
+    margin-left: 981px;
+    margin-top: 1px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+}
+.bluedot {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+.greendot {
+    margin-top: 15px;
+    margin-left: 106px;
+}
+/*Окно подписки*/
+.baner3 {
+    position: absolute;
+    
+    width: 234px;
+    height: 282px;
+    margin-left: 981px;
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+        
+}
+.newsletters {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 39px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #635F57;
+    text-align: center;
+}
+.subs {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 35px;
+    font-size: 14px;
+    color: #696969;
+    text-align: center;
+}
+.inpute {
+    margin-top: 180px;
+    margin-left: 31px;
+    border-color: #E2E2E2;
+}
+.greyline {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: -127px;
+}
+.Subscribe {
+    position: absolute;
+    width: 113px;
+    height: 45px;
+    margin-top: 218px;
+    margin-left: 59px;
+    background-color: #7DB122;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.blulinee {
+    position: absolute;
+    margin-left: 981px;
+    margin-top: 75px; 
+}
+/* Первая линия  нижнего блока */
+.footerfirstline {
+    position: relative;
+    width: 100%;
+    height: 106px;
+    background-color: #4CB1CA;
+    margin-top: 1440px;
+
+}
+.truck {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 21px;
+    margin-left: 191px;
+}
+.truckk {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+}
+.trucktext {
+    position: absolute;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    top: 44px;
+    left: 273px;
+}
+.cellfone {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 21px;
+    margin-left: 743px;
+}
+.cellfonee {
+    position: absolute;
+    top: 18px;
+    left: 19px;
+}
+.cellfonetext {
+    position: absolute;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    top: 23px;
+    left: 84px;
+    width: 362px;
+}
+/* Вторая основная линия */
+.footersecondline {
+    position: relative;
+    width: 100%;
+    height: 402px;
+    background-color: #39A0B9;
+}
+.text {
+    color: #FFFFFF;
+}
+.facebook {
+    position: absolute;
+    font-size: 21px;
+    text-transform: uppercase;
+    top: 49px;
+    left: 191px;
+}
+.members {
+    position: absolute;
+    font-size: 13px;
+    top: 100px;
+    left: 191px;
+}
+.buttonlike {
+    position: absolute;
+    width: 47px;
+    height: 23px;
+    top: 138px;
+    left: 46px;
+}
+.fotolike {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    cursor: pointer;
+}
+.blusmallline {
+    position: relative;
+    top: 131px;
+    left: 191px;
+}
+.foto1 {
+    position: relative;
+    top: 188px;
+    left: -53px;
+    padding-left: 7px;
+}
+.foto2 {
+    position: relative;
+    top: 244px;
+    left: -296px;
+    padding-left: 7px;
+}
+.blusmallline2 {
+    position: absolute;
+    top: 303px;
+    left: 191px;
+}
+.socialplugin {
+    position: absolute;
+    font-size: 13px;
+    top: 309px;
+    left: 191px;
+}
+/* ТВИТЕР */
+.twitter {
+    position: absolute;
+    font-size: 21px;
+    text-transform: uppercase;
+    top: 49px;
+    left: 458px;
+}
+.twitlist {
+    position: absolute;
+    width: 259px;
+    top: 67px;
+    left: 473px;
+    padding-top: 7px;
+    list-style-type: none;
+}
+.twitlistmark {
+    margin-bottom: 20px;
+}
+
+.fototwitt {
+    position: absolute;
+    top: 95px;
+    left: 458px;
+    width: 43px;
+    height: 43px;
+}
+.fototwitt2 {
+    position: absolute;
+    top: 196px;
+    left: 458px;
+    width: 43px;
+    height: 43px;
+}
+
+/* ИНФОРМАЦИЯ */
+.information {
+    position: absolute;
+    font-size: 21px;
+    text-transform: uppercase;
+    top: 49px;
+    left: 800px;
+}
+.informationlist {
+    position: absolute;
+    top: 67px;
+    left: 759px;
+    padding-top: 7px;
+    list-style: none;
+    
+}
+.infolistmark {
+    margin-bottom: 4px;
+    
+}
+/* КОНТАКТЫ */
+.contacts {
+    position: absolute;
+    font-size: 21px;
+    text-transform: uppercase;
+    top: 49px;
+    left: 1068px;
+}
+.contactinfo {
+    position: absolute;
+    top: 89px;
+    left: 1068px;
+}
+.fonemail {
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* !ВОТ ТУТ Я ЗАДАЛ ПСЕВДОКЛАСЫ НО ОНИ НЕ СРАБОТАЛИ. НЕ ЗНАЮ ПОЧЕМУ!!! */
+.fonemail link {
+    color: #FFFFFF;
+}
+.fonemail :visited {
+    color: #635F57;
+}
+.fonemail :hover {
+    color: #A5E2F2;
+}
+.bluesmallline3 {
+    position: absolute;
+    top: 133px;
+    left: 0px;
+}
+.socialsite {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: 145px;
+    left: 0px;
+    cursor: pointer;
+
+}
+
+.logosocialsite {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.socialsite1 {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: 145px;
+    left: 45px;
+    cursor: pointer;
+
+}
+.socialsite2 {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: 145px;
+    left: 90px;
+    cursor: pointer;
+
+}
+.socialsite3 {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: 145px;
+    left: 135px;
+    cursor: pointer;
+
+}
+/* ПОСЛЕДНЯЯ ЛИНИЯ */
+.lastblock {
+    
+    width: 100%;
+    height: 65px;
+    background-color: #0B4B5A;
+}
+.copy {
+    position: relative;
+    top: 20px;
+    left: 187px;
+    color: #84D4E8;
+    font-size: 13px;
+}
+.bottomtext {
+    position: relative;
+    width: 500px;
+    top: -11px;
+    left: 810px;
+    font-size: 13px;
+    color: #84D4E8;
+}
+
+
+
+
+
+
+
